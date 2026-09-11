@@ -1,0 +1,15 @@
+#board {
+  display: grid;
+  margin-top: 20px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  font-size: 1.5rem;
+}
+
+.cell.light { background: #eee; }
+.cell.dark  { background: #999; }

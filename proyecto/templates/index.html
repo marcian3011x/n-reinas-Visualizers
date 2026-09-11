@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>N-Reinas — Algoritmo Genético</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>N-Reinas — Algoritmo Genético</h1>
+
+  <div id="controls">
+    <label>N: <input type="number" id="nInput" value="8" min="4" max="20"></label>
+    <button id="startBtn">Iniciar</button>
+    <span id="genCounter"></span>
+  </div>
+
+  <div id="board"></div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
